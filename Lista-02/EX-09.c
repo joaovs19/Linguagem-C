@@ -6,7 +6,7 @@ int main() {
     float NOTA1, NOTA2, NOTA3, ME, MEDIA;
     char CONCEITO;
 
-    printf("Digite o número de identificação do aluno: ");
+    printf("Digite o numero de identificacaoo do aluno: ");
     scanf("%d", &NUM);
 
     printf("Digite a nota da primeira prova: ");
@@ -18,7 +18,7 @@ int main() {
     printf("Digite a nota da terceira prova: ");
     scanf("%f", &NOTA3);
 
-    printf("Digite a média dos exercícios: ");
+    printf("Digite a media dos exercícios: ");
     scanf("%f", &ME);
 
     MEDIA = (NOTA1 + NOTA2 * 2 + NOTA3 * 3 + ME) / 7;
@@ -35,16 +35,16 @@ int main() {
         CONCEITO = 'E';
     }
 
-    printf("\nNúmero de identificação: %d\n", NUM);
+    printf("\nNumero de identificacao: %d\n", NUM);
     printf("Notas: %.2f, %.2f, %.2f\n", NOTA1, NOTA2, NOTA3);
-    printf("Média dos exercícios: %.2f\n", ME);
-    printf("Média final: %.2f\n", MEDIA);
+    printf("Media dos exercicios: %.2f\n", ME);
+    printf("Media final: %.2f\n", MEDIA);
     printf("Conceito: %c\n", CONCEITO);
 
     if (CONCEITO == 'A' || CONCEITO == 'B' || CONCEITO == 'C') {
-        printf("Situação: Aprovado\n");
+        printf("Situacao: Aprovado\n");
     } else {
-        printf("Situação: Reprovado\n");
+        printf("Situacaoo: Reprovado\n");
     }
 
     return 0;

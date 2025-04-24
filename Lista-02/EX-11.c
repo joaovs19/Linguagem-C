@@ -4,7 +4,7 @@
 int main() {
     int DIA, MES, ANO;
 
-    printf("Digite o mês (1 a 12): ");
+    printf("Digite o mes (1 a 12): ");
     scanf("%d", &MES);
 
     if (MES >= 1 && MES <= 12) {
@@ -16,78 +16,78 @@ int main() {
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de janeiro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de janeiro.\n");
+                    printf("Valor invalido para o dia do mes de janeiro.\n");
                 break;
             case 2:
                 if (DIA >= 1 && DIA <= 28)
                     printf("%d de fevereiro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de fevereiro.\n");
+                    printf("Valor invalido para o dia do mes de fevereiro.\n");
                 break;
             case 3:
                 if (DIA >= 1 && DIA <= 31)
-                    printf("%d de março de %d\n", DIA, ANO);
+                    printf("%d de marco de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de março.\n");
+                    printf("Valor invalido para o dia do mes de marco.\n");
                 break;
             case 4:
                 if (DIA >= 1 && DIA <= 30)
                     printf("%d de abril de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de abril.\n");
+                    printf("Valor invalido para o dia do mes de abril.\n");
                 break;
             case 5:
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de maio de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de maio.\n");
+                    printf("Valor invalido para o dia do mes de maio.\n");
                 break;
             case 6:
                 if (DIA >= 1 && DIA <= 30)
                     printf("%d de junho de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de junho.\n");
+                    printf("Valor invalido para o dia do mes de junho.\n");
                 break;
             case 7:
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de julho de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de julho.\n");
+                    printf("Valor invalido para o dia do mes de julho.\n");
                 break;
             case 8:
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de agosto de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de agosto.\n");
+                    printf("Valor invalido para o dia do mes de agosto.\n");
                 break;
             case 9:
                 if (DIA >= 1 && DIA <= 30)
                     printf("%d de setembro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de setembro.\n");
+                    printf("Valor invalido para o dia do mes de setembro.\n");
                 break;
             case 10:
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de outubro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de outubro.\n");
+                    printf("Valor invalido para o dia do mes de outubro.\n");
                 break;
             case 11:
                 if (DIA >= 1 && DIA <= 30)
                     printf("%d de novembro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de novembro.\n");
+                    printf("Valor invalido para o dia do mes de novembro.\n");
                 break;
             case 12:
                 if (DIA >= 1 && DIA <= 31)
                     printf("%d de dezembro de %d\n", DIA, ANO);
                 else
-                    printf("Valor inválido para o dia do mês de dezembro.\n");
+                    printf("Valor invalido para o dia do mes de dezembro.\n");
                 break;
         }
 
     } else {
-        printf("Valor informado para o mês é inválido.\n");
+        printf("Valor informado para o mes e invalido.\n");
     }
 
     return 0;

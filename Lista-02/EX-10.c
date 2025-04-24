@@ -4,22 +4,22 @@
 int main() {
     float X, Y, Z;
 
-    printf("Digite os três lados do triângulo:\n");
+    printf("Digite os tres lados do triangulo:\n");
     scanf("%f %f %f", &X, &Y, &Z);
 
     if ((X + Y > Z) && (X + Z > Y) && (Y + Z > X)) {
         printf("Os valores podem formar um triângulo.\n");
 
         if (X == Y && Y == Z) {
-            printf("Tipo: Triângulo Equilátero.\n");
+            printf("Tipo: Triangulo Equilatero.\n");
         } else if (X == Y || X == Z || Y == Z) {
-            printf("Tipo: Triângulo Isósceles.\n");
+            printf("Tipo: Triangulo Isosceles.\n");
         } else {
-            printf("Tipo: Triângulo Escaleno.\n");
+            printf("Tipo: Triangulo Escaleno.\n");
         }
 
     } else {
-        printf("Os valores informados NÃO formam um triângulo.\n");
+        printf("Os valores informados NAO formam um triangulo.\n");
     }
 
     return 0;
