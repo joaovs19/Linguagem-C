@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &hora_fim);
 
     if (hora_inicio < 0 || hora_inicio > 23 || hora_fim < 0 || hora_fim > 23) {
-        printf("Horas inválidas. Digite valores entre 0 e 23.\n");
+        printf("Horas invalidas. Digite valores entre 0 e 23.\n");
         return 1;
     }
 
@@ -23,7 +23,7 @@ int main() {
         duracao = (24 - hora_inicio) + hora_fim;
     }
 
-    printf("A duração do jogo foi de %d hora(s).\n", duracao);
+    printf("A duracaoo do jogo foi de %d hora(s).\n", duracao);
 
     return 0;
 }

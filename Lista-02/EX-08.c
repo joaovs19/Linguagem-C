@@ -6,10 +6,10 @@ int main() {
     float SALARIO_ATUAL, SALARIO_NOVO, AUMENTO;
     float PERCENTUAL;
 
-    printf("Digite o número do funcionário: ");
+    printf("Digite o numero do funcionario: ");
     scanf("%d", &NUM_FUNC);
 
-    printf("Digite o salário atual do funcionário: ");
+    printf("Digite o salario atual do funcionario: ");
     scanf("%f", &SALARIO_ATUAL);
 
     if (SALARIO_ATUAL <= 1000.00) {
@@ -29,10 +29,10 @@ int main() {
     AUMENTO = SALARIO_ATUAL * (PERCENTUAL / 100);
     SALARIO_NOVO = SALARIO_ATUAL + AUMENTO;
 
-    printf("\nNúmero do funcionário: %d\n", NUM_FUNC);
-    printf("Salário atual: R$ %.2f\n", SALARIO_ATUAL);
+    printf("\nNumero do funcionario: %d\n", NUM_FUNC);
+    printf("Salario atual: R$ %.2f\n", SALARIO_ATUAL);
     printf("Percentual de aumento: %.0f%%\n", PERCENTUAL);
-    printf("Salário corrigido: R$ %.2f\n", SALARIO_NOVO);
+    printf("Salario corrigido: R$ %.2f\n", SALARIO_NOVO);
 
     return 0;
 }
