@@ -1,4 +1,4 @@
-//Faça um programa que leia dois números reais e em seguida mostre: a soma, o produto, a divisão e a subtração entre eles.
+//Faça um programa que leia dois números reais e em seguida mostre: a soma, o produto, a divisão e a subtração entre eles
 #include <stdio.h>
 
 int main(){
